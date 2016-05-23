@@ -15,5 +15,6 @@
      <?php include 'other.php';?>
   </p>
   <h2>I know you'll be able to figure this stuff out EASILY</h2>
+  <?php include 'footer.php';?>
   </body>
 </html>
