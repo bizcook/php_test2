@@ -9,6 +9,18 @@
     $number = 3 * 9;
     echo $number;
   ?>
+  <br />
+  <h4> making a for loop in php to iterate over an array: </h4>
+  <?php
+          $players = array("arod",
+          "jordy", "clay",
+          "eddie", "sam");
+
+          foreach ($players as $one) {
+              echo "<li>$one</li>";
+          }
+        ?>
+
   <h2>
   <?php
     if(5>6){
